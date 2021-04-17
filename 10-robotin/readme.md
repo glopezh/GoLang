@@ -1,6 +1,10 @@
 
-<h1 align="center">Geraldine Lopez Entregable 1 - GO</h1>
+<h1 align="center">Geraldine Lopez: Entregable 1 - GO</h1>
 <h3 align="center">Máster Universitario de Programación de Alto Rendimiento</h3>
+
+<p align="center"> <a href="https://golang.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> </p>
+
+
 
 <ul>Cuando 100 robots salen de la fábrica, no tienen nombre.</ul>
 
@@ -14,21 +18,21 @@
 - 🔭 **~~FUNCIÓN EXISTE**~~ 
 
 
-Se mostrará por la terminal cada vez que se asigne un nombre a un robot, y se avisará de las colisiones de nombres que se hayan producido.`
+<ul>Se mostrará por la terminal cada vez que se asigne un nombre a un robot, y se avisará de las colisiones de nombres que se hayan producido.</ul>
 
-Realiza la validación de si existe o no nombres de robots repetidos.
+<ul>Realiza la validación de si existe o no nombres de robots repetidos.</ul>
 
-`True: Existe el nombre del robot.
-False: No existe el nombre del robot.`
+<ul>True: Existe el nombre del robot.</ul>
+<ul>False: No existe el nombre del robot.</ul>
 
 
 - 🔭~~**FUNCIÓN GENERAROBOTS**~~
 
-Se encarga de generar los nombres de los robots, evitando la duplicidad,
-con la ayuda de la validación de la función EXISTE.
+<ul>Se encarga de generar los nombres de los robots, evitando la duplicidad,</ul>
+<ul>con la ayuda de la validación de la función EXISTE.</ul>
 
 
-<p align="left"> <a href="https://golang.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> </p>
+<p align="center"> <a href="https://golang.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> </p>
 
 
 
