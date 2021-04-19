@@ -18,7 +18,6 @@ func main() {
 			nombres[j] = nuevos_nombres[j]
 		}
 			fmt.Println(nuevos_nombres)
-			fmt.Println(nombres)
 			time.Sleep(1 * time.Second)
 	}
 }
