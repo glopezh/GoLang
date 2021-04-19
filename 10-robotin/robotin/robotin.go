@@ -7,14 +7,15 @@ import (
 )
 
 
-func Generarobots(x int,mostrar_colisiones bool) []string {
+
+func Generarobots(x int,mostrar_colisiones bool,nuevo_nombre []string) []string {
 	var names []string
 	letters := [26]string{"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"}
 
 
 	for len(names) < x{
 		name := letters[rand.Intn(25)] + strconv.Itoa(rand.Intn(9))
-		if (!existe(names,name)){
+		if !existe(names,name) && !existe(nuevo_nombre,name) {
 			names = append(names,name)
 		}else{
 			if (mostrar_colisiones){
