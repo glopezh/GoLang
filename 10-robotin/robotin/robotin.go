@@ -9,12 +9,12 @@ import (
 
 
 func Generarobots(x int,mostrar_colisiones bool,nuevo_nombre []string) []string {
-	var names []string
+	var names []string // nuevos nombres
 	letters := [26]string{"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"}
 
 
 	for len(names) < x{
-		name := letters[rand.Intn(25)] + strconv.Itoa(rand.Intn(9))
+		name := letters[rand.Intn(25)] + strconv.Itoa(rand.Intn(9)) //concatenar -convertor a cadena
 		if !existe(names,name) && !existe(nuevo_nombre,name) {
 			names = append(names,name)
 		}else{
